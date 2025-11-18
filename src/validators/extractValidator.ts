@@ -1,5 +1,5 @@
 import { body } from "express-validator";
-import { MAX_FILE_SIZE_BYTES, isSupportedMimeType } from "../utils/fileUtils";
+import { MAX_FILE_SIZE_BYTES, isSupportedMimeType } from "../utils/fileUtils.js";
 
 export const extractValidationRules = [
   body("file").custom((_, { req }) => {
