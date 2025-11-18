@@ -7,6 +7,7 @@ const config = {
   moduleFileExtensions: ["ts", "js", "json"],
   collectCoverageFrom: ["src/**/*.ts"],
   coveragePathIgnorePatterns: ["/node_modules/"],
+  setupFiles: ["<rootDir>/jest.setup.ts"],
   moduleNameMapper: {
     "^(\\.{1,2}/.*)\\.js$": "$1",
   },

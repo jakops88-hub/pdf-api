@@ -1,0 +1,1 @@
+process.env.ALLOWED_API_KEYS = process.env.ALLOWED_API_KEYS || 'valid-key';
