@@ -1,0 +1,11 @@
+dist
+node_modules
+.git
+.github
+Dockerfile
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+coverage
+tests
+README_rapid.md
