@@ -20,8 +20,6 @@ COPY tsconfig.json ./
 RUN npm ci
 
 COPY src ./src
-COPY tests ./tests
-
 RUN npm run build && npm prune --omit=dev
 
 ENV NODE_ENV=production \
